@@ -27,23 +27,3 @@ input {
   width: 300px;
   outline: none;
 }
-
-input:focus:not([type="submit"]) {
-  border-color: blueviolet;
-}
-
-input[type="submit"] {
-  display: block;
-  margin-top: 12px;
-  font-weight: bold;
-  font-size: 18px;
-  background-color: transparent;
-  width: fit-content;
-  padding: 10px 40px;
-  cursor: pointer;
-}
-
-input[type="submit"]:hover {
-  background-color: blueviolet;
-  color: #fff;
-}
